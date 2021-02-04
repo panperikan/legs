@@ -13,7 +13,8 @@ header.masthead {
     position: relative;
     height: 50%;
     background-color: #343a40;
-    background: url('../img/20210122 (8).jpg') no-repeat center center;
+    background-image: url('../img/202101317777.jpg');
+    background-image: url('../img/20210122 (8).webp');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,6 +23,10 @@ header.masthead {
     padding-bottom: 8rem;
 
 }
+
+
+
+
 header.masthead .overlay{position:absolute;background-color:#000000;height:100%;width:100%;top:0;left:0;opacity:.3}
 
 @media (min-width:768px) {
@@ -86,9 +91,7 @@ a.btn.btn-default.btn-scroll {
     transform: translate(-50%, -50%);
 }
 
-#step1-2{
-  text-align: center;
-}
+
 
 
 
@@ -132,6 +135,12 @@ font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255,255,255,0.0);
   color: #ff0000;
-  font-size: 35px;
+  font-size: 40px;
+
+}
+
+#carousel{
+background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
+
 
 }
