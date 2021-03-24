@@ -1,149 +1,168 @@
-#hero h2 {
-  position: relative;
-  color: #6eb0f9;
-  line-height: 1.4;
-  -webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
+body {
+font-family: 'Kosugi Maru', sans-serif;
 }
 
 
 
 
 
-header.masthead {
-    position: relative;
-    height: 50%;
-    background-color: #343a40;
-    background-image: url('../img/202101317777.jpg');
-    background-image: url('../img/20210122 (8).webp');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+	/*font-family: 'Hachi Maru Pop', cursive;
+}*/
 
+
+
+
+
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed;
 }
 
-
-
-
-header.masthead .overlay{position:absolute;background-color:#000000;height:100%;width:100%;top:0;left:0;opacity:.3}
-
-@media (min-width:768px) {
-    header.masthead {
-        padding-top: 12rem;
-        padding-bottom: 12rem;
-    }
-    header.masthead h3 {
-        font-size: 4rem;
-    }
+#hero .container {
+  padding-top: 72px;
 }
 
-.testimonials{
-    padding-top:5rem;
-    padding-bottom:5rem;
-
-}
-
-.myform-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
-button.btn.btn-light {
-    position: absolute;
-    background: transparent;
-    border: none;
-    height: 38px;
-    right: 23px;
-}
-
-a.btn.btn-default.btn-scroll {
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 100%;
-}
-
-
-
-.big-img img {
-    height: 325px;
-    width:100%;
-    object-fit: cover;
-}
-
-.inner-section{
- position:relative;
-}
-.container.slider-top-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-
-
-
-.step1-1 {
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
   color: #fff;
-  background: linear-gradient(-135deg, #E4A972, #9941D8) fixed;
+  font-family: 'Hachi Maru Pop', cursive;
 }
 
-.step1-2{
-  background: linear-gradient(to right, blue, pink);
-  color: white;
+#hero h2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+#hero .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+
+#hero .btn-get-started:hover {
+  background: #209dd8;
+}
+
+#hero .btn-watch-video {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 0 8px 40px;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  color: #fff;
+  position: relative;
+}
+
+#hero .btn-watch-video i {
+  color: #fff;
+  font-size: 32px;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  transition: 0.3s;
+}
+
+#hero .btn-watch-video:hover i {
+  color: #47b2e4;
+}
+
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@media (max-width: 991px) {
+  #hero {
+    height: 100vh;
+    text-align: center;
+  }
+  #hero .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero .hero-img {
+    text-align: center;
+  }
+  #hero .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+  #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  #hero .btn-watch-video {
+    font-size: 16px;
+    padding: 10px 0 8px 40px;
+    margin-left: 20px;
+  }
+  #hero .btn-watch-video i {
+    font-size: 32px;
+    top: 7px;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 
-#running{
-  text-align: center;
-  
-}
-.running {
-background: linear-gradient(to bottom, #FFC778, #FFF);
 
-
+#TikTok{
+	text-align: center;
 }
 
-.speed{
-  background: linear-gradient(rgba(246, 255, 0, 0.5), rgba(255, 0, 161, 0.5));
-  text-align: center;
+#Instagram{
+	text-align: center;
 }
 
-
-.marker{
-background: linear-gradient(transparent 0%, #fff799 );
-font-weight: bold; 
-}
-
-
-
-.primeslimleggings h2{
- background: linear-gradient(110deg, #ffd800, #ff0000 45%, #ffd800);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255,255,255,0.0);
-  color: #ff0000;
-  font-size: 40px;
-
-}
-
-#carousel{
-background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
-
-
-}
 
 
 .wrap {
