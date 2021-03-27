@@ -16,7 +16,7 @@ font-family: 'customfont', sans-serif;
 
 
 
-	/*font-family: 'Hachi Maru Pop', cursive;
+  /*font-family: 'Hachi Maru Pop', cursive;
 }*/
 
 
@@ -166,11 +166,11 @@ font-family: 'customfont', sans-serif;
 
 
 #TikTok{
-	text-align: center;
+  text-align: center;
 }
 
 #Instagram{
-	text-align: center;
+  text-align: center;
 }
 
 
@@ -238,3 +238,16 @@ button::after {
     opacity: 0;
   }
 }
+
+
+
+.btn-funky-moon {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 3px solid #eee;
+}
+
+
+
