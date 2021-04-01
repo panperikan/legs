@@ -10,6 +10,7 @@
 
 body {
 font-family: 'customfont', sans-serif;
+
 }
 
 
@@ -165,13 +166,7 @@ font-family: 'customfont', sans-serif;
 
 
 
-#TikTok{
-  text-align: center;
-}
 
-#Instagram{
-  text-align: center;
-}
 
 
 
@@ -247,6 +242,15 @@ button::after {
     background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     border: 3px solid #eee;
+}
+
+
+
+.wataadd{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  text-align: center;
+
+
 }
 
 
