@@ -255,3 +255,98 @@ button::after {
 
 
 
+#tiktok {
+  
+  position: relative;
+}
+
+
+.x1{
+  position: absolute;
+  top: 5%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+
+.x2{
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.x3{
+  position: absolute;
+  top: 15%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.x4{
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.x5{
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.x6{
+  position: absolute;
+  top: 30%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.z1{
+  position: absolute;
+  top: 52%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.z2{
+  position: absolute;
+  top: 57%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.z3{
+  position: absolute;
+  top: 62%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.z4{
+  position: absolute;
+  top: 67%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.z5{
+  position: absolute;
+  top: 72%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+.z6{
+  position: absolute;
+  top: 77%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+
+}
+
